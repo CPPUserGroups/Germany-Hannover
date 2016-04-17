@@ -10,3 +10,6 @@
 [submodule "11-4-2016/testing-with-catch/trompeloeil-integration/test/trompeloeil"]
 	path = 11-4-2016/testing-with-catch/trompeloeil-integration/test/trompeloeil
 	url = https://github.com/rollbear/trompeloeil.git
+[submodule "11-4-2016/testing-with-catch/operator<</test/Catch"]
+	path = 11-4-2016/testing-with-catch/operator<</test/Catch
+	url = https://github.com/philsquared/Catch.git
