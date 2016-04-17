@@ -1,0 +1,6 @@
+[submodule "11-4-2016/testing-with-catch/gmock-integration/test/Catch"]
+	path = 11-4-2016/testing-with-catch/gmock-integration/test/Catch
+	url = https://github.com/philsquared/Catch.git
+[submodule "11-4-2016/testing-with-catch/gmock-integration/test/googletest"]
+	path = 11-4-2016/testing-with-catch/gmock-integration/test/googletest
+	url = https://github.com/google/googletest
