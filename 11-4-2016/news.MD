@@ -1,8 +1,9 @@
 # 2016-04-11 News
 
-* Meeting C++ 2016 registration started 18./19. November 2016
-  Andels Hotel/Berlin (like the last two years but bigger)
-  Stroustrup is one of the keynote speakers!
+* Meeting C++ 2016 registration started
+    + date: 18./19. November 2016
+    + location: Andels Hotel/Berlin (like the last two years but bigger)
+    + Bjarne Stroustrup is one of the keynote speakers!
 
 * Boost 1.61.0 beta is available
     + Hana
