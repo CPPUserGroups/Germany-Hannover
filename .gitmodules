@@ -13,3 +13,6 @@
 [submodule "11-4-2016/testing-with-catch/operator<</test/Catch"]
 	path = 11-4-2016/testing-with-catch/operator<</test/Catch
 	url = https://github.com/philsquared/Catch.git
+[submodule "11-4-2016/testing-with-catch/demo-and-experiments/test/Catch"]
+	path = 11-4-2016/testing-with-catch/demo-and-experiments/test/Catch
+	url = https://github.com/philsquared/Catch.git
