@@ -1,0 +1,11 @@
+---
+Language: Cpp
+BasedOnStyle: Chromium
+AllowShortBlocksOnASingleLine: false
+AllowShortFunctionsOnASingleLine: false
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+IndentWidth: 4
+AccessModifierOffset: -2
+ContinuationIndentWidth: 8
+...
