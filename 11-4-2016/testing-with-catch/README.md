@@ -7,6 +7,8 @@ C++ User Group Hannover meeting on Monday, April 11th 2016.
 
 ### Slides
 
+You can view the slides [here](https://nbviewer.jupyter.org/format/slides/github/CPPUserGroups/Germany-Hannover/blob/master/11-4-2016/testing-with-catch/slides/Testing_with_Catch.ipynb).
+
 To convert the Jupyter Notebook into [reveal.js](http://lab.hakim.se/reveal-js/)-powered
 slides and serve them yourself, run
 
