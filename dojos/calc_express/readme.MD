@@ -1,0 +1,1 @@
+1) Ausdruck mit Klammern, Operatoren (+-*/)
