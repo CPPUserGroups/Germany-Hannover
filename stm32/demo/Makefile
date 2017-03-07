@@ -16,7 +16,7 @@ A2L=arm-none-eabi-addr2line
 
 ###
 # Directory Structure
-BINDIR=bin
+BINDIR=.
 INCDIR=inc
 SRCDIR=src
 
@@ -26,7 +26,7 @@ ASOURCES=$(shell find -L $(SRCDIR) -name '*.s')
 CSOURCES=$(shell find -L $(SRCDIR) -name '*.c')
 CXXSOURCES=$(shell find -L $(SRCDIR) -name '*.cpp')
 # Find header directories
-INC=$(shell find -L $(INCDIR) -name '*.h' -exec dirname {} \; | uniq)
+INC=src
 INCLUDES=$(INC:%=-I%)
 # Find libraries
 INCLUDES_LIBS=
@@ -113,7 +113,7 @@ clean:
 
 deploy:
 ifeq ($(wildcard /opt/openocd/bin/openocd),)
-	st-flash --reset write bin/"$(BINELF)" 0x8000000
+	st-flash --reset write "$(BINELF)" 0x8000000
 else
 	/opt/openocd/bin/openocd -f /opt/openocd/share/openocd/scripts/board/stm32f4discovery.cfg -c "program bin/"$(BINELF)" verify reset"
 endif
