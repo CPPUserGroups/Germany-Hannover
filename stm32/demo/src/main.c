@@ -1,4 +1,5 @@
 #include "stm32f4xx_gpio.h"
+#include "stm32f4xx_rcc.h"
 
 GPIO_InitTypeDef  GPIO_InitStructure;
 
