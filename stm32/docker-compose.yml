@@ -8,13 +8,13 @@ services:
     volumes:
       - ./demo:/tmp/build
     command: >
-      sh -c 'cd /tmp/build/demo && \
-        make && \
+      sh -c 'cd /tmp/build && \
+        make clean all && \
         (st-util --multi &) && \
-        cd /tmp/build/demo && \
+        cd /tmp/build && \
         arm-none-eabi-gdb \
           -batch \
           -ex "target extended-remote :4242" \
           -ex "load" \
           -ex "run" \
-          bin/outp.elf'
+          outp.elf'
